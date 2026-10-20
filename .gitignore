@@ -1,0 +1,14 @@
+# dependencies: npm install recreates them from package-lock.json
+node_modules/
+
+# logs (the Firebase CLI writes tokens into firebase-debug.log)
+*.log
+firebase-debug*.log
+firestore-debug*.log
+ui-debug*.log
+
+# local secrets and caches
+.env
+.env.*
+.firebase/
+.DS_Store
